@@ -1,0 +1,45 @@
+/* CSS for Webpage */
+
+/* Prevent text size adjustments on screens */
+
+html {
+-webkit-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+text-size-adjust: 100%;
+font-size: 20px;
+line-height: 24px;
+}
+
+/* Displaying as blocks */
+article, header, footer, small {
+  display: block;
+  font-size: inherit
+}
+
+/* Design, Modular and Alignment */
+
+html {
+  font-family: "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-size: 1.188em; /* 19px */
+  line-height: 1.333em; /* 25.327px */
+  padding: .75em;
+  background-color: #CCC;
+}
+.content {
+  margin-bottom: 1.333em;
+}
+h1 {
+  font-family: "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-size: 1.777em; /* 33.761px */
+  line-height: 1.333em; /* 45.003px */
+  padding-bottom: .667em; /* 1.333em / 2 (half) = .6665 */
+  font-color: #333;
+  text-align: center
+}
+
+p {
+  padding-top: .333em;
+  padding-bottom: 1em;
+  text-align: inherit;
+}
