@@ -35,7 +35,7 @@ h1 {
   line-height: 1.333em; /* 45.003px */
   padding-bottom: .667em; /* 1.333em / 2 (half) = .6665 */
   font-color: #333;
-  text-align: center
+  text-align: center;
 }
 
 p {
