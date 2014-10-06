@@ -46,8 +46,13 @@ h1 {
   font-color: #DCDCDC;
   text-align: center;
 }
-bg{ 
-   /* Set rules to fill background */
+header{
+  color: white; /* Make your text white*/
+  background-image: url('12314391175_9de4ed7c07_o.jpg');
+  background-size: cover;
+
+}
+{ /* Set rules to fill background */
   min-height: 100%;
   min-width: 100%;
   
@@ -61,14 +66,20 @@ bg{
   top: 0;
   left: 0;
 }
+body {
+  color: white; /* Make your text white*/
+  background-image: url('12314391175_9de4ed7c07_o.jpg');
+  background-size: cover;
+  width: 100%;
+  background-size: 100%;
+  
 }
-h2 { font-size: 1.777em; /* 33.761px */
+header { font-size: 1.777em; /* 33.761px */
   line-height: 1.333em; /* 45.003px */
   padding-bottom: .667em; /* 1.333em / 2 (half) = .6665 */
   font-color: #DCDCDC;
   text-align: center;
   font-family:"Mona Lisa Solid ITCTT", "Big Caslon", "Garamond";
-
 
 }
 p {
