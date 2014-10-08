@@ -11,12 +11,12 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 /* Prevent text size adjustments on screens */
 
 html {
-webkit-text-size-adjust: 100%;
-moz-text-size-adjust: 100%;
-ms-text-size-adjust: 100%;
-text-size-adjust: 100%;
-font-size: 20px;
-line-height: 24px;
+-webkit-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-text-size-adjust: 100%;
+-font-size: 20px;
+-line-height: 24px;
 }
 
 /* Displaying as blocks */
@@ -32,17 +32,19 @@ html {
   font-size: 1.188em; /* 19px */
   line-height: 1.333em; /* 25.327px */
   padding: .75em;
-  background-color: #CCC;
+  background-color: white;
+  
 }
 content {
   margin-bottom: 1.333em;
 }
 
-h1 {
+h1, h2, h3 {
   font-family: "Mona Lisa Solid ITCTT", "Big Caslon", "Garamond";
-  font-size: 1.777em; /* 33.761px */
-  line-height: 1.333em; /* 45.003px */
-  padding-bottom: .667em; /* 1.333em / 2 (half) = .6665 */
+  font-size: .444em; 
+  line-height: 0.296em; 
+  padding-bottom: 0.296em; 
+  padding-top: 0em;
   font-color: #DCDCDC;
   text-align: center;
 }
@@ -50,7 +52,9 @@ header{
   color: white; /* Make your text white*/
   background-image: url('12314391175_9de4ed7c07_o.jpg');
   background-size: cover;
-
+  font-color: #DCDCDC;
+  text-align: center;
+  font-family:"Mona Lisa Solid ITCTT", "Big Caslon", "Garamond";
 }
 { /* Set rules to fill background */
   min-height: 100%;
@@ -66,26 +70,11 @@ header{
   top: 0;
   left: 0;
 }
-body {
-  color: white; /* Make your text white*/
-  background-image: url('12314391175_9de4ed7c07_o.jpg');
-  background-size: cover;
-  width: 100%;
-  background-size: 100%;
-  
-}
-header { font-size: 1.777em; /* 33.761px */
-  line-height: 1.333em; /* 45.003px */
-  padding-bottom: .667em; /* 1.333em / 2 (half) = .6665 */
-  font-color: #DCDCDC;
-  text-align: center;
-  font-family:"Mona Lisa Solid ITCTT", "Big Caslon", "Garamond";
 
-}
 p {
-  padding-top: .333em;
+  padding-top: 1em;
   padding-bottom: 1em;
-  text-align: inherit;
-  font-color: #F8F8FF;
+  text-align: center;
+  font-color: black;
   font-family: "Garamond", "Perpetua";
 }
