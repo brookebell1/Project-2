@@ -82,7 +82,14 @@ p {
   font-family: "Garamond", "Perpetua";
 }
 <style> 
-  @media (max-width: 800px) and (orientation: portrait)
-  @media (max-width: 1000px) and (orientation: portrait)
-  @media (max-width: 2000px) and (orientation: portrait)
+  @media (min-width: 800px) and (orientation: portrait){
+  header{
+  color: white; /* Make your text white*/
+  background-image: url('12314391175_9de4ed7c07_o.jpg');
+  background-size: cover;}
+  @media (max-width: 2000px) handheld and (orientation: portrait){
+  header{
+  color: white; /* Make your text white*/
+  background-image: url('12314391175_9de4ed7c07_o.jpg');
+  background-size: cover;}
     
