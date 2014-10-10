@@ -32,6 +32,7 @@ html {
 }
 content {
   margin-bottom: 1.333em;
+
 }
 
 h1 {
@@ -81,22 +82,104 @@ p {
   font-color: black;
   font-family: "Garamond", "Perpetua";
 }
-<!-- CSS media query on a link element -->
-<link rel="stylesheet" media="(max-width: 800px)" href="screen.css" />
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+header {
+  color: white; /* Make your text white*/
+  background-image: url('12314391175_9de4ed7c07_o.jpg');
+  background-size: cover;}
+  
+h1 {
+  font-family: "Mona Lisa Solid ITCTT", "Big Caslon", "Garamond";
+  font-size: 1.777em; /* 33.761px */
+  line-height: 1.333em; /* 45.003px */
+  padding-bottom: .667em; /* 1.333em / 2 (half) = .6665 */
+  font-color: #DCDCDC;
+  text-align: center;
+  text-decoration: none;
+}
+body {
+  word-wrap: break-word;}
+}
+p {
+  word-wrap: break-word;
+}
 
-<!-- CSS media query within a stylesheet -->
-<style> 
-  @media (min-width: 800px) and (orientation: portrait){
-  header{
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+  header {
   color: white; /* Make your text white*/
   background-image: url('12314391175_9de4ed7c07_o.jpg');
-  background-size: cover;}
-  @media (max-width: 2000px) handheld and (orientation: portrait){
-  header{
+  background-size: cover;
+}
+  
+h1 {
+  font-family: "Mona Lisa Solid ITCTT", "Big Caslon", "Garamond";
+  font-size: 1.777em; /* 33.761px */
+  line-height: 1.333em; /* 45.003px */
+  padding-bottom: .667em; /* 1.333em / 2 (half) = .6665 */
+  font-color: #DCDCDC;
+  text-align: center;
+  text-decoration: none;
+}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+  header {
   color: white; /* Make your text white*/
   background-image: url('12314391175_9de4ed7c07_o.jpg');
-  background-size: cover;}
-  </style>
-  }
+  background-size: cover;
+}
+  
+h1 {
+  font-family: "Mona Lisa Solid ITCTT", "Big Caslon", "Garamond";
+  font-size: 1.777em; /* 33.761px */
+  line-height: 1.333em; /* 45.003px */
+  padding-bottom: .667em; /* 1.333em / 2 (half) = .6665 */
+  font-color: #DCDCDC;
+  text-align: center;
+  text-decoration: none;
+}
+  body {
+  word-wrap: break-word;}
+}
+p {
+  word-wrap: break-word;
+}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+    header {
+  color: white; /* Make your text white*/
+  background-image: url('12314391175_9de4ed7c07_o.jpg');
+  background-size: cover;
+}
+  
+h1 {
+  font-family: "Mona Lisa Solid ITCTT", "Big Caslon", "Garamond";
+  font-size: 1.777em; /* 33.761px */
+  line-height: 1.333em; /* 45.003px */
+  padding-bottom: .667em; /* 1.333em / 2 (half) = .6665 */
+  font-color: #DCDCDC;
+  text-align: center;
+  text-decoration: none;
+}
+  body {
+  word-wrap: break-word;}
+}
+p {
+  word-wrap: break-word;
+}
+}
     
     
