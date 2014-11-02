@@ -1,0 +1,86 @@
+/* screen.css for webpage */
+
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+
+/* Prevent text size adjustments on screens */
+
+html {
+webkit-text-size-adjust: 100%;
+moz-text-size-adjust: 100%;
+ms-text-size-adjust: 100%;
+text-size-adjust: 100%;
+background-color: #CCC;  
+}
+
+/* Displaying as blocks */
+article, header, footer, small {
+  display: block;
+}
+
+header{ 
+color:white;
+text-align: center;
+font-family: Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+font-weight: bold;
+font-size: 4.575em; 
+line-height: 1.333em; 
+padding-top: 4.0em;
+padding-bottom: 6.8em;
+background-color: #CCC;
+word-wrap: break-word;
+background-image: url('4444649820_3111ed6eee_b.jpg');
+background-size: cover; /*https://www.flickr.com/photos/monika_thorpe/4444649820/in/photolist-7LKZxs-HsP5a-g1AmMt-ncBtST-afSAMY-daiVtQ-bTJ7k-aeiAbT-gTioEq-7SNuPG-a7rGvG-nAY9sW-9CdTHT-ox2Qhd-dHJoWB-4exWZ3-8aHn4D-io58HV-o8BcQT-9PnXCu-hwzvT-2JZYs-3voQpH-75FH7U-oV3Jus-fWF3uv-2xjKJD-nHmafZ-64frYQ-gaTSBQ-aifUgu-9hF4nT-6Jgy7C-naNLLJ-aMNGXv-biWjVz-bajDsT-aPZWxn-hwzfM-6Eu5jy-79VbJQ-JPpkC-Ebtv9-aJFbsv-7K3Bw-9rE9ao-mcz22c-3vtjXG-86VJ2o-6CEUqG */
+}
+
+#content{
+  color:white;
+  font-family: Montserrat, "Mona Lisa Solid ITCTT", "Big Caslon", "Garamond";
+  padding-top: 19.0em;
+  padding-bottom: 19.0em;
+  padding-left: 1.0em;
+  padding-right: 1.0em;
+  text-align: center;
+  background-color:black;
+}
+  
+#contenttwo{
+  color:white;
+  font-family: Montserrat, "Mona Lisa Solid ITCTT", "Big Caslon", "Garamond";
+    padding-top: 18.0em;
+  padding-bottom: 19.0em;
+  padding-left: 1.0em;
+  padding-right: 1.0em;
+  text-align: center;
+  background-color:black;
+}
+  
+#contentthree{
+  color:white;
+  font-family: Montserrat, "Mona Lisa Solid ITCTT", "Big Caslon", "Garamond";
+    padding-top: 18.0em;
+  padding-bottom: 19.0em;
+  padding-left: 1.0em;
+  padding-right: 1.0em;
+  text-align: center;
+  background-color: black;
+}
+
+footer{
+  color:black;
+  font-family: Montserrat, "Mona Lisa Solid ITCTT", "Big Caslon", "Garamond";
+    padding-top: 3.0em;
+  padding-bottom: 3.0em;
+  padding-left: 1.0em;
+  padding-right: 1.0em;
+  text-align: center;
+  text-decoration: none;
+  background-color:grey;}
+
+  <style> .ig-b- { display: inline-block; }
+.ig-b- img { visibility:visible; }
+.ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
+.ig-b-24 { width: 24px; height: 24px; background: url(//badges.instagram.com/static/images/ig-badge-sprite-24.png) no-repeat 0 0; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+.ig-b-24 { background-image: url(//badges.instagram.com/static/images/ig-badge-24.png); background-size: 60px 178px; } }</style>}
+ 
+  /* fix instagram logo
