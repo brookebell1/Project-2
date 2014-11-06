@@ -9,7 +9,7 @@ webkit-text-size-adjust: 100%;
 moz-text-size-adjust: 100%;
 ms-text-size-adjust: 100%;
 text-size-adjust: 100%;
-background-color: #CCC;  
+background-color: grey;  
 }
 
 /* Displaying as blocks */
@@ -74,6 +74,7 @@ footer{
   padding-right: 1.0em;
   text-align: center;
   text-decoration: none;
+  text-decoration-color: black;
   background-color:grey;}
 
   <style> .ig-b- { display: inline-block; }
