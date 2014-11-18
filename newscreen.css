@@ -285,7 +285,7 @@ and (min-width : 321px) {
   font-weight: bold;
   padding-top: 2.03em;
   padding-bottom: 2.03em;
-  text-size:0.444em;
+  text-size:0.35em;
 }
 
 #education{
@@ -295,7 +295,7 @@ and (min-width : 321px) {
   font-weight: bold;
   padding-top: 2.03em;
   padding-bottom: 2.03em;
-  text-size:0.444em;
+  text-size:0.35em;
 }
 
 #skills{
@@ -305,7 +305,7 @@ and (min-width : 321px) {
   font-weight: bold;
   padding-top: 2.03em;
   padding-bottom: 2.03em;
-  text-size:0.444em;
+  text-size:0.35em;
 }
 
 #awards{
@@ -315,7 +315,7 @@ and (min-width : 321px) {
   font-weight: bold;
   padding-top: 2.03em;
   padding-bottom: 2.03em;
-  text-size:0.444em;
+  text-size:0.35em;
 }
 
 #experience{
@@ -325,7 +325,7 @@ and (min-width : 321px) {
   font-weight: bold;
   padding-top: 2.03em;
   padding-bottom: 2.03em;
-  text-size:0.444em;
+  text-size:0.35em;
 }
 
 #references{
@@ -335,7 +335,7 @@ and (min-width : 321px) {
   font-weight: bold;
   padding-top: 2.03em;
   padding-bottom: 2.03em;
-  text-size:0.444em;
+  text-size:0.35em;
 }
 }
 /* Smartphones (portrait) ----------- */
