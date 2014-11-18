@@ -76,3 +76,73 @@ footer{
   text-decoration: none;
   text-decoration-color: black;
   background-color:grey;}
+
+/*page two of web design */
+
+h1{
+  color:black;
+  font-size: 2.5em;
+  font-family:Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight:bold;
+}
+
+h2{
+  color:black;
+  font-size:1.5em;
+  font-family:Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight:bold;
+}
+
+#me{
+  color:black;
+  text-align: center;
+  font-family: Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight: bold;
+  padding-top: 2.03em;
+  padding-bottom: 2.03em;
+}
+
+#education{
+  color:black;
+  text-align: inherit;
+  font-family: Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight: bold;
+  padding-top: 2.03em;
+  padding-bottom: 2.03em;
+}
+
+#skills{
+  color:black;
+  text-align: inherit;
+  font-family: Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight: bold;
+  padding-top: 2.03em;
+  padding-bottom: 2.03em;
+}
+
+#awards{
+  color:black;
+  text-align: inherit;
+  font-family: Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight: bold;
+  padding-top: 2.03em;
+  padding-bottom: 2.03em;
+}
+
+#experience{
+  color:black;
+  text-align: inherit;
+  font-family: Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight: bold;
+  padding-top: 2.03em;
+  padding-bottom: 2.03em;
+}
+
+#references{
+  color:black;
+  text-align: inherit;
+  font-family: Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight: bold;
+  padding-top: 2.03em;
+  padding-bottom: 2.03em;
+}
