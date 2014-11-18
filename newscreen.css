@@ -57,8 +57,8 @@ background-size: cover; /*https://www.flickr.com/photos/monika_thorpe/4444649820
 #contentthree{
   color:white;
   font-family: Montserrat, "Mona Lisa Solid ITCTT", "Big Caslon", "Garamond";
-    padding-top: 18.0em;
-  padding-bottom: 19.0em;
+    padding-top: 20.0em;
+  padding-bottom: 20.0em;
   padding-left: 1.0em;
   padding-right: 1.0em;
   text-align: center;
@@ -76,12 +76,3 @@ footer{
   text-decoration: none;
   text-decoration-color: black;
   background-color:grey;}
-
-  <style> .ig-b- { display: inline-block; }
-.ig-b- img { visibility:visible; }
-.ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
-.ig-b-24 { width: 24px; height: 24px; background: url(//badges.instagram.com/static/images/ig-badge-sprite-24.png) no-repeat 0 0; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-.ig-b-24 { background-image: url(//badges.instagram.com/static/images/ig-badge-24.png); background-size: 60px 178px; } }</style>}
- 
-  /* fix instagram logo
