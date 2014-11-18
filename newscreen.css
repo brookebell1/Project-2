@@ -58,7 +58,7 @@ background-size: cover; /*https://www.flickr.com/photos/monika_thorpe/4444649820
   color:white;
   font-family: Montserrat, "Mona Lisa Solid ITCTT", "Big Caslon", "Garamond";
     padding-top: 20.0em;
-  padding-bottom: 20.0em;
+  padding-bottom: 24.0em;
   padding-left: 1.0em;
   padding-right: 1.0em;
   text-align: center;
@@ -76,6 +76,10 @@ footer{
   text-decoration: none;
   text-decoration-color: black;
   background-color:grey;}
+
+.ext{
+  color:black;
+}
 
 /* Smartphones (landscape) ----------- */
 .page @media only screen 
