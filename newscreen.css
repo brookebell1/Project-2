@@ -77,16 +77,129 @@ footer{
   text-decoration-color: black;
   background-color:grey;}
 
+/* Smartphones (landscape) ----------- */
+.page @media only screen 
+and (min-width : 321px) {
+/* Styles */
+  header {
+font-size: 2.5em; 
+line-height: 1.333em; 
+padding-top: 4.0em;
+padding-bottom: 4.0em;
+word-wrap: break-word;
+
+  }
+#content{
+  color:white;
+  font-family: Montserrat, "Mona Lisa Solid ITCTT", "Big Caslon", "Garamond";
+  text-size:1.5em;
+  padding-top: 6.0em;
+  padding-bottom: 6.0em;
+  padding-left: 1.0em;
+  padding-right: 1.0em;
+  text-align: center;
+  background-color:black;
+}
+  
+#contenttwo{
+  text-size:1.5em;
+  padding-top: 8.0em;
+  padding-bottom: 8.0em;
+  padding-left: 1.0em;
+  padding-right: 1.0em;
+  text-align: center;
+  
+}
+  
+#contentthree{
+  text-size:1.5em;
+  padding-top: 8.0em;
+  padding-bottom: 8.0em;
+  padding-left: 1.0em;
+  padding-right: 1.0em;
+  text-align: center;
+}
+
+footer{
+  color:black;
+  font-family: Montserrat, "Mona Lisa Solid ITCTT", "Big Caslon", "Garamond";
+  text-size:1.5em;
+  padding-top: 3.0em;
+  padding-bottom: 3.0em;
+  padding-left: 1.0em;
+  padding-right: 1.0em;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-color: black;
+  background-color:grey;}  
+}
+/* Smartphones (portrait) ----------- */
+.page @media only screen 
+and (min-width : 20em) { /*320px */
+/* Styles */
+header {
+  font-size: 2.5em; 
+  line-height: 1.333em; 
+  padding-top: 4.0em;
+  padding-bottom: 4.0em;
+  word-wrap: break-word;
+
+  }
+#content{
+  color:white;
+  font-family: Montserrat, "Mona Lisa Solid ITCTT", "Big Caslon", "Garamond";
+  text-size:1.5em;
+  padding-top: 6.0em;
+  padding-bottom: 6.0em;
+  padding-left: 1.0em;
+  padding-right: 1.0em;
+  text-align: center;
+  background-color:black;
+}
+  
+#contenttwo{
+  text-size:1.5em;
+  padding-top: 8.0em;
+  padding-bottom: 8.0em;
+  padding-left: 1.0em;
+  padding-right: 1.0em;
+  text-align: center;
+  
+}
+  
+#contentthree{
+  text-size:1.5em;
+  padding-top: 8.0em;
+  padding-bottom: 8.0em;
+  padding-left: 1.0em;
+  padding-right: 1.0em;
+  text-align: center;
+}
+
+footer{
+  color:black;
+  font-family: Montserrat, "Mona Lisa Solid ITCTT", "Big Caslon", "Garamond";
+  text-size:1.5em;
+  padding-top: 3.0em;
+  padding-bottom: 3.0em;
+  padding-left: 1.0em;
+  padding-right: 1.0em;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-color: black;
+  background-color:grey;}  
+}
+
 /*page two of web design */
 
-h1{
+.resume h1{
   color:black;
   font-size: 2.5em;
   font-family:Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
   font-weight:bold;
 }
 
-h2{
+.resume h2{
   color:black;
   font-size:1.5em;
   font-family:Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
@@ -145,4 +258,164 @@ h2{
   font-weight: bold;
   padding-top: 2.03em;
   padding-bottom: 2.03em;
+}
+
+/* Smartphones (landscape) ----------- */
+.resume @media only screen 
+and (min-width : 321px) {
+/* Styles */
+  .resume h1{
+  color:black;
+  font-size: 1.75em;
+  font-family:Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight:bold;
+}
+
+.resume h2{
+  color:black;
+  font-size:1.0em;
+  font-family:Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight:bold;
+}
+
+#me{
+  color:black;
+  text-align: center;
+  font-family: Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight: bold;
+  padding-top: 2.03em;
+  padding-bottom: 2.03em;
+  text-size:0.444em;
+}
+
+#education{
+  color:black;
+  text-align: inherit;
+  font-family: Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight: bold;
+  padding-top: 2.03em;
+  padding-bottom: 2.03em;
+  text-size:0.444em;
+}
+
+#skills{
+  color:black;
+  text-align: inherit;
+  font-family: Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight: bold;
+  padding-top: 2.03em;
+  padding-bottom: 2.03em;
+  text-size:0.444em;
+}
+
+#awards{
+  color:black;
+  text-align: inherit;
+  font-family: Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight: bold;
+  padding-top: 2.03em;
+  padding-bottom: 2.03em;
+  text-size:0.444em;
+}
+
+#experience{
+  color:black;
+  text-align: inherit;
+  font-family: Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight: bold;
+  padding-top: 2.03em;
+  padding-bottom: 2.03em;
+  text-size:0.444em;
+}
+
+#references{
+  color:black;
+  text-align: inherit;
+  font-family: Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight: bold;
+  padding-top: 2.03em;
+  padding-bottom: 2.03em;
+  text-size:0.444em;
+}
+}
+/* Smartphones (portrait) ----------- */
+.resume @media only screen 
+and (min-width : 20em) { /*320px */
+/* Smartphones (landscape) ----------- */
+.resume @media only screen 
+and (min-width : 321px) {
+/* Styles */
+  .resume h1{
+  color:black;
+  font-size: 2.5em;
+  font-family:Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight:bold;
+}
+
+.resume h2{
+  color:black;
+  font-size:1.5em;
+  font-family:Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight:bold;
+}
+
+#me{
+  color:black;
+  text-align: center;
+  font-family: Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight: bold;
+  padding-top: 2.03em;
+  padding-bottom: 2.03em;
+  text-size:0.444em;
+}
+
+#education{
+  color:black;
+  text-align: inherit;
+  font-family: Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight: bold;
+  padding-top: 2.03em;
+  padding-bottom: 2.03em;
+  text-size:0.444em;
+}
+
+#skills{
+  color:black;
+  text-align: inherit;
+  font-family: Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight: bold;
+  padding-top: 2.03em;
+  padding-bottom: 2.03em;
+  text-size:0.444em;
+}
+
+#awards{
+  color:black;
+  text-align: inherit;
+  font-family: Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight: bold;
+  padding-top: 2.03em;
+  padding-bottom: 2.03em;
+  text-size:0.444em;
+}
+
+#experience{
+  color:black;
+  text-align: inherit;
+  font-family: Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight: bold;
+  padding-top: 2.03em;
+  padding-bottom: 2.03em;
+  text-size:0.444em;
+}
+
+#references{
+  color:black;
+  text-align: inherit;
+  font-family: Courgette, cursive, "Mona Lisa Solid ITCTT", "Big Caslon";
+  font-weight: bold;
+  padding-top: 2.03em;
+  padding-bottom: 2.03em;
+  text-size:0.444em;
+}
 }
